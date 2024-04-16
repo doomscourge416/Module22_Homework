@@ -1,0 +1,21 @@
+.btn{
+    min-width: 210px;
+    min-height: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.svg1{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.svg2{
+    display: none;
+    width: 20px;
+    height: 20px;
+}

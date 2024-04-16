@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: grey;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- Задание 1. Изобразить с помощью элементов SVG флаги пяти стран: 
+        Россия, Франция, Финляндия, Швейцария, Япония. 
+        Каждый SVG-элемент с флагом должен иметь размер 180 на 120 пикселей. 
+    -->
+    <div style="display:flex; flex-direction: column;">
+
+        <svg width="180"height="120" style="margin-bottom:50px"> <!-- Россия -->
+
+            <rect style="fill:white;" x="0" y="0" width="180" height="40"></rect>
+            <rect style="fill:rgb(31, 31, 221);"x="0" y="40" width="180" height="40"></rect>
+            <rect style="fill:rgb(168,0,0);"x="0" y="80" width="180" height="40"></rect>
+    
+        </svg>
+    
+        <svg width="180"height="120" style="margin-bottom:50px"> <!-- Франция -->
+    
+            <rect style="fill:rgb(31, 31, 221);"x="0" y="0" width="60" height="120"></rect>
+            <rect style="fill:white;" x="60" y="0" width="60" height="120"></rect>
+            <rect style="fill:rgb(168,0,0);"x="120" y="0" width="60" height="120"></rect>
+    
+        </svg>
+    
+        <svg width="180"height="120" style="margin-bottom:50px"> <!-- Финляндия -->
+    
+            <rect style="fill:white;" x="0" y="0" width="180" height="120"></rect>
+            <rect style="fill:rgb(31, 31, 221);"x="50" y="0" width="30" height="120"></rect>
+            <rect style="fill:rgb(31, 31, 221);"x="0" y="50" width="180" height="30"></rect>
+    
+        </svg>
+    
+        <svg width="180"height="120" style="margin-bottom:50px"> <!-- Швейцария -->
+    
+            <rect style="fill:rgb(168,0,0);" x="0" y="0" width="180" height="120"></rect>
+            <rect style="fill:white;" x="30" y="45" width="120" height="35"></rect>
+            <rect style="fill:white;" x="70" y="20" width="40" height="80"></rect>
+    
+        </svg>
+    
+        <svg width="180"height="120" style="margin-bottom:50px;"> <!-- Япония -->
+    
+            <rect x="0" y="0" width="180"height="120" style="fill:white"></rect>
+            <circle cx="90" cy="60" r="30" style="fill:rgb(168,0,0)"/>
+    
+        </svg>
+
+    </div>
+    
+
+
+</body>
+</html>
